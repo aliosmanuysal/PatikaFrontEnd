@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcı Bilgileri Formu</title>
+
+    
+    <style> /* CSS */
+        body {
+            background-color: #1ab59c;
+            font-family: 'Roboto', sans-serif;
+            justify-content: center;
+        }
+        form { /* Form */
+            background-color: #f2df83;
+            padding: 20px;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+        }
+        h2 { /* Form Title */
+            color: #8a2be2;
+            text-align: center;
+        }
+        .form { /* Form Fields */
+            margin-bottom: 15px;
+        }
+        .form label { /* Form Labels */
+            margin-bottom: 5px;
+            color: #4b0082;
+        }
+        .form input,
+        .form select,
+        .form textarea { /* Form Inputs */
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #1f97d5;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form input[type="radio"] { /* Form Radio Buttons */
+            width: auto;
+        }
+        
+        .form button { /* Form Buttons */
+            width: 100%;
+            padding: 10px;
+            background-color: #9370db; 
+            color: white;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form button:hover { /* Form Buttons Hover */
+            background-color: #ba55d3;
+        }
+    </style>
+</head>
+<body>
+
+<form> <!-- Form -->
+    <!-- Form Title -->
+    <h2>Kullanıcı Bilgi Formu</h2>
+
+    <fieldset> <!-- Form Fields -->
+        <legend>Kullanıcı Bilgileri</legend>
+
+    <div class="form"> <!-- Ad Alanı -->
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" placeholder="Adınızı giriniz" required>
+    </div>
+
+    <div class="form"> <!-- Soyad Alanı -->
+        <label for="surname">Soyadınız:</label>
+        <input type="text" id="surname" name="surname" placeholder="Soyadınızı giriniz" required>
+    </div>
+
+    <div class="form"> <!-- E-posta Alanı -->
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" placeholder="E-posta adresinizi giriniz" required>
+    </div>
+
+    <div class="form"> <!-- Şifre Alanı -->
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" placeholder="Şifrenizi giriniz" required>
+    </div>
+
+    <div class="form"> <!-- Cinsiyet Alanı -->
+        <label for="gender">Cinsiyet:</label>
+        <input type="radio" id="gender" value="male" placeholder="Cinsiyet"/>Erkek
+        <input type="radio" id="gender" value="famale" placeholder="Cinsiyet"/>Kadın
+    </div>
+
+    <div class="form"> <!-- Sevdiği Meyve Alanı -->
+        <label for="fruit">Sevdiğiniz Meyve:</label>
+        <select id="fruit" name="fruid"required>
+            <option value="">Lütfen Seçiniz</option>
+            <option value="apple">Elma</option>
+            <option value="banana">Muz</option>
+            <option value="strawberry">Çilek</option>
+            <option value="coconut">Hindistan Cevizi</option>
+        </select>
+    </div>
+
+    <div class="form"> <!-- Mesaj Alanı -->
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" placeholder="Mesajınızı Giriniz"></textarea>
+    </div>
+
+    <div class="form"> <!-- Gönder ve Temizle Butonları -->
+        <button type="submit">Gönder</button>
+        <button type="reset">Temizle</button>
+    </div>
+    </fieldset>
+</form>
+
+</body>
+</html>
