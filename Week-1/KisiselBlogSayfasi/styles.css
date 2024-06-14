@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #2973c1;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+section#hakkimda {
+    background-color: #f9f9f9;
+}
+
+section#projeler {
+    background-color: #eee;
+}
+
+section#iletisim {
+    background-color: #ddd;
+}
+
+section#teknikbeceriler {
+    background-color: #ccc;
+        padding: 20px;
+        position: relative;
+        margin: auto;
+        align-items: center;
+}
+
+footer {
+    background-color: #2bc0c8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
