@@ -13,5 +13,6 @@
 #### İletişim
 ![blog](/Week-1/BlogPage/images/iletişim.png)
 #### Servisler
+![blog](/Week-1/BlogPage/images/servisler.png)
 #### Developer
 - [Ali Osman UYSAL](https://www.linkedin.com/in/aliosmanuysal/)
