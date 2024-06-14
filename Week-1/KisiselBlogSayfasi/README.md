@@ -4,4 +4,4 @@
 - CSS3
 - VSC
 #### Developer
-- [Ali Osman UYSAL](https://www.linkedin.com/in/aliosmanuysal/)a
+- [Ali Osman UYSAL](https://www.linkedin.com/in/aliosmanuysal/)
