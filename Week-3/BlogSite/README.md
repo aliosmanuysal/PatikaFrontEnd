@@ -16,10 +16,10 @@ Bu proje, basit bir blog sitesi oluşturmak için geliştirilmiş bir HTML ve CS
 - Visual Studio Code
 
 ### Ekran Görüntüleri
-#### Anasayfa
-![blog](/Week-1/BlogSite/images/index.png)
+#### Ana Sayfa
+![blog](/Week-3/BlogSite/images/index.png)
 #### Post page
-![blog](/Week-1/BlogSite/images/postpage.png)
+![blog](/Week-3/BlogSite/images/postpage.png)
 
 #### Developer
 - [Ali Osman UYSAL](https://www.linkedin.com/in/aliosmanuysal/)
