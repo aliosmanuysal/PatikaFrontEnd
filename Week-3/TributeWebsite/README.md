@@ -9,7 +9,7 @@ Bu proje, ünlü Kırgız yazar Cengiz Aytmatov için bir anma sitesidir. Web si
 - ***Google Fonts***
 
 ### Ekran Görüntüsü
-![cengizaytmatov](cengizaytmatov.png)
+![cengizaytmatov](./images/cengizaytmatov.png)
 
 #### Developer
 - [Ali Osman UYSAL](https://www.linkedin.com/in/aliosmanuysal/)
