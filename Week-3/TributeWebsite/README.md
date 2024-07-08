@@ -8,6 +8,8 @@ Bu proje, ünlü Kırgız yazar Cengiz Aytmatov için bir anma sitesidir. Web si
 - ***CSS3***
 - ***Google Fonts***
 
+#### Live Site URL: [Cengiz Aytmatov Tribute Website](http://beautiful-pixie-eda717.netlify.app)
+
 ### Ekran Görüntüsü
 ![cengizaytmatov](./images/cengizaytmatov.png)
 
