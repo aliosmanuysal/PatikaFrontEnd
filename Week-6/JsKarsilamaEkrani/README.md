@@ -5,6 +5,7 @@ Bu proje, kullanıcıdan ismini alarak karşılama ekranında kullanıcının is
 ## Proje Yapısı
 
 #### Proje Klasörü
+```markdown
 │
 ├── HTML
 │   └── index.html
@@ -13,7 +14,8 @@ Bu proje, kullanıcıdan ismini alarak karşılama ekranında kullanıcının is
 │   └── styles.css
 │
 └── JavaScript
-└── clock.js
+    └── clock.js
+```
 
 ## Kullanılan Teknolojiler
 
@@ -39,7 +41,7 @@ Bu dosya, projenin ana HTML dosyasıdır ve giriş ve karşılama ekranlarını 
 
 Bu dosya, projenin stil dosyasıdır. Gradyan arka plan ve kartlar ile yapıp sönme animasyonu burada tanımlanmıştır.
 
-### JavaScript/script.js
+### JavaScript/clock.js
 
 Bu dosya, projenin JavaScript dosyasıdır. Kullanıcıdan ismi alır ve karşılama ekranını günceller. Ayrıca, anlık tarih ve saat bilgisini gösterir.
 
