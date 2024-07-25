@@ -1,0 +1,29 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeInOut 2s infinite;
+}
+
+h1, p {
+  margin: 0;
+  padding: 10px;
+}
+
+#date-time {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
