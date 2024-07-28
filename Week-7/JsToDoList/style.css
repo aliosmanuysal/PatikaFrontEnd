@@ -1,0 +1,91 @@
+/* Body Background Gradient */
+body {
+  background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Header Styling */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Alfa Slab One", serif;
+}
+
+/* Input Group Styling */
+.input-group {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#taskInput {
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px 0 0 10px;
+}
+
+#addTaskBtn {
+  border: none;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+#addTaskBtn:hover {
+  background-color: #45a049;
+}
+
+/* List Group Styling */
+.list-group {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item .btn {
+  border-radius: 20px;
+  font-size: 0.8em;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Toast Styling */
+.toast {
+  background: #333;
+  color: #fff;
+  border-radius: 10px;
+  opacity: 0.9;
+}
