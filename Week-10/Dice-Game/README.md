@@ -3,7 +3,7 @@
 A simple dice game application built with React. The application allows users to roll two dice and see the result of the roll. The application also keeps track of the number of rolls and the number of times each number is rolled.
 
 ### 🧑‍💻 Live Site
-[![GitHub Logo](/public/images/github.svg)](#)
+[![GitHub Logo](/public/images/github.svg)](https://patika-front-end-zeta.vercel.app/)
 
 ## 🛠️ Installation
 
@@ -12,7 +12,7 @@ Follow the steps below to run the project in your local environment:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/aliosmanuysal/
+    git clone https://github.com/aliosmanuysal/PatikaFrontEnd.git
     ```
 
 2. **Navigate to the project directory:**
