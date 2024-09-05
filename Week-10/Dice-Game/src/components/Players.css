@@ -1,0 +1,33 @@
+.players-inputs{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.players input {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #cccc; 
+    background: transparent;
+  }
+  
+  input:not(:focus) {
+    border: none;
+    background: none;
+    cursor: pointer; 
+  }
+
+  .players h1 {
+    color: #431066;
+    text-align: center;
+    animation: fade-in 1s ease-in-out infinite;
+  }

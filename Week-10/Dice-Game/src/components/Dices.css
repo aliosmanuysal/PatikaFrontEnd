@@ -1,0 +1,14 @@
+.dices{
+    display: flex;
+    gap: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 40px;
+    background-color: #363636;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dices img {
+    margin-top: 10px;
+}
