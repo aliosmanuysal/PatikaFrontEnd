@@ -2,7 +2,7 @@
 
 This is a simple app that uses the Star Wars API to display information about the Star Wars universe.
 
-[Live Website](#)
+[![GitHub Logo][def]
+](https://starwarsapp.vercel.app/)
 
-[![GitHub Logo](./src/assets/github.svg
-)](#)
+[def]: ./src/assets/github.svg
