@@ -1,0 +1,59 @@
+:root {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #F5F5F5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+input {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 16px 16px 16px 60px;
+  border: none;
+  background: #FEFEFE;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+input::-webkit-input-placeholder {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+input::-moz-placeholder {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+input::input-placeholder {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
